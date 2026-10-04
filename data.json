@@ -134,7 +134,8 @@
           "status": "purchased"
         },
         "schema_version": "1.0",
-        "status": "purchased",
+        "settled_at": "2026-10-04T01:40:04.165848Z",
+        "status": "settled",
         "tickets": [
           {
             "eligible_for_combined_probability": true,
@@ -292,7 +293,146 @@
           }
         ]
       },
-      "result": null
+      "result": {
+        "accumulated": true,
+        "contest_id": 3066,
+        "draw_date": "2026-10-03",
+        "draw_order": [
+          48,
+          13,
+          4,
+          9,
+          6,
+          28
+        ],
+        "estimated_next_prize_brl": 92000000.0,
+        "evaluated_at": "2026-10-04T01:40:04.165843Z",
+        "human_outcome": {
+          "best_hits": 2,
+          "evaluated_tickets": 4,
+          "gross_prize_brl": 0.0,
+          "quadra_or_better": false,
+          "quina_or_better": false,
+          "sena": false
+        },
+        "model_evaluation": {
+          "best_hits": 1,
+          "evaluated_tickets": 6,
+          "gross_prize_brl": 0.0,
+          "quadra_or_better": false,
+          "quina_or_better": false,
+          "sena": false
+        },
+        "next_contest_id": 3067,
+        "next_draw_date": "2026-10-06",
+        "numbers": [
+          4,
+          6,
+          9,
+          13,
+          28,
+          48
+        ],
+        "prize_tiers": {
+          "4": {
+            "prize_brl": 608.56,
+            "winners": 8062
+          },
+          "5": {
+            "prize_brl": 25224.37,
+            "winners": 118
+          },
+          "6": {
+            "prize_brl": 0.0,
+            "winners": 0
+          }
+        },
+        "purchase_validated": true,
+        "revenue_brl": 74694060.0,
+        "settled_at": "2026-10-04T01:40:04.165848Z",
+        "settlement": {
+          "gross_prize_brl": 0.0,
+          "participants": 4,
+          "share_per_participant_brl": 0.0
+        },
+        "source": {
+          "provider": "CAIXA",
+          "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3066"
+        },
+        "special_contest_indicator": 1,
+        "ticket_results": [
+          {
+            "hits": 0,
+            "id": "S01",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 1,
+            "id": "S02",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 1,
+            "id": "S03",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 1,
+            "id": "S04",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 0,
+            "id": "S05",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 0,
+            "id": "S06",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 0,
+            "id": "H01",
+            "origin": "human_collective",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 2,
+            "id": "H02",
+            "origin": "human_collective",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 0,
+            "id": "H03",
+            "origin": "human_collective",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 2,
+            "id": "H04",
+            "origin": "human_collective",
+            "prize_brl": 0.0,
+            "tier": null
+          }
+        ]
+      }
     },
     {
       "portfolio": {
@@ -731,9 +871,9 @@
   ],
   "generated_from": "versioned_repository_data",
   "history": {
-    "contests": 3065,
+    "contests": 3066,
     "first_contest": 1,
-    "last_contest": 3065,
-    "updated_at": "2026-10-02T01:31:20.743924Z"
+    "last_contest": 3066,
+    "updated_at": "2026-10-04T01:39:56.840406Z"
   }
 }
