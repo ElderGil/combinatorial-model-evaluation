@@ -11,10 +11,10 @@
           "version": "0.1.0",
           "week_index": 3
         },
-        "contest_id": 3071,
-        "created_at": "2026-10-16T16:11:49.955289Z",
-        "draw_date": "2026-10-18",
-        "human_registered_at": "2026-10-18T16:13:56.600955Z",
+        "contest_id": 3072,
+        "created_at": "2026-10-18T16:19:23.498031Z",
+        "draw_date": "2026-10-20",
+        "human_registered_at": "2026-10-18T16:19:28.482137Z",
         "probabilities": {
           "combined": {
             "quadra_exact": {
@@ -133,8 +133,308 @@
           "effective_bets": null,
           "status": "pending"
         },
+        "rescheduled_from": 3071,
         "schema_version": "1.0",
         "status": "awaiting_purchase",
+        "tickets": [
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S01",
+            "numbers": [
+              8,
+              12,
+              16,
+              47,
+              53,
+              57
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S02",
+            "numbers": [
+              3,
+              13,
+              15,
+              31,
+              41,
+              59
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S03",
+            "numbers": [
+              6,
+              23,
+              26,
+              30,
+              34,
+              38
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S04",
+            "numbers": [
+              2,
+              7,
+              17,
+              25,
+              44,
+              48
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S05",
+            "numbers": [
+              14,
+              35,
+              39,
+              43,
+              46,
+              52
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S06",
+            "numbers": [
+              21,
+              36,
+              40,
+              42,
+              45,
+              58
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": false,
+            "eligible_for_model_validation": false,
+            "id": "H01",
+            "numbers": [
+              4,
+              11,
+              17,
+              19,
+              36,
+              40
+            ],
+            "origin": "human_collective",
+            "owner": "Elder"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": false,
+            "eligible_for_model_validation": false,
+            "id": "H02",
+            "numbers": [
+              3,
+              17,
+              25,
+              29,
+              31,
+              47
+            ],
+            "origin": "human_collective",
+            "owner": "Victor"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": false,
+            "eligible_for_model_validation": false,
+            "id": "H03",
+            "numbers": [
+              2,
+              13,
+              23,
+              43,
+              44,
+              52
+            ],
+            "origin": "human_collective",
+            "owner": "Andrei"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": false,
+            "eligible_for_model_validation": false,
+            "id": "H04",
+            "numbers": [
+              6,
+              19,
+              22,
+              28,
+              36,
+              60
+            ],
+            "origin": "human_collective",
+            "owner": "Ellyson"
+          }
+        ]
+      },
+      "result": null
+    },
+    {
+      "portfolio": {
+        "algorithm": {
+          "cycle_id": 0,
+          "historical_signal_weight": 0.0,
+          "name": "coverage-anticrowding-v0.1",
+          "objective_score": 0.24,
+          "seed": 15217236651216136078,
+          "version": "0.1.0",
+          "week_index": 3
+        },
+        "contest_id": 3071,
+        "created_at": "2026-10-16T16:11:49.955289Z",
+        "draw_date": "2026-10-18",
+        "human_registered_at": "2026-10-18T16:13:56.600955Z",
+        "missed_window": {
+          "reason": "Janela de compra perdida: o 3071 foi sorteado em 18/10/2026 antes da compra; o grupo joga no 3072 (terça, 20/10/2026).",
+          "recorded_at": "2026-10-18T16:19:23.405175Z",
+          "rescheduled_contest_id": 3072
+        },
+        "probabilities": {
+          "combined": {
+            "quadra_exact": {
+              "favorable_outcomes": 214434,
+              "one_in": 233.46978557504875,
+              "percent": 0.42832094848459545,
+              "probability": 0.004283209484845955,
+              "total_outcomes": 50063860
+            },
+            "quadra_or_better": {
+              "favorable_outcomes": 217684,
+              "one_in": 229.9841054004888,
+              "percent": 0.43481265727412943,
+              "probability": 0.004348126572741294,
+              "total_outcomes": 50063860
+            },
+            "quina_exact": {
+              "favorable_outcomes": 3240,
+              "one_in": 15451.808641975307,
+              "percent": 0.006471734300950826,
+              "probability": 6.471734300950826e-05,
+              "total_outcomes": 50063860
+            },
+            "quina_or_better": {
+              "favorable_outcomes": 3250,
+              "one_in": 15404.264615384616,
+              "percent": 0.006491708789534007,
+              "probability": 6.491708789534007e-05,
+              "total_outcomes": 50063860
+            },
+            "sena": {
+              "favorable_outcomes": 10,
+              "one_in": 5006386.0,
+              "percent": 1.997448858318156e-05,
+              "probability": 1.997448858318156e-07,
+              "total_outcomes": 50063860
+            }
+          },
+          "human_only": {
+            "quadra_exact": {
+              "favorable_outcomes": 85824,
+              "one_in": 583.331702087994,
+              "percent": 0.17142905081629742,
+              "probability": 0.0017142905081629742,
+              "total_outcomes": 50063860
+            },
+            "quadra_or_better": {
+              "favorable_outcomes": 87124,
+              "one_in": 574.6276571323631,
+              "percent": 0.17402573433211102,
+              "probability": 0.0017402573433211103,
+              "total_outcomes": 50063860
+            },
+            "quina_exact": {
+              "favorable_outcomes": 1296,
+              "one_in": 38629.52160493827,
+              "percent": 0.00258869372038033,
+              "probability": 2.5886937203803302e-05,
+              "total_outcomes": 50063860
+            },
+            "quina_or_better": {
+              "favorable_outcomes": 1300,
+              "one_in": 38510.661538461536,
+              "percent": 0.002596683515813603,
+              "probability": 2.596683515813603e-05,
+              "total_outcomes": 50063860
+            },
+            "sena": {
+              "favorable_outcomes": 4,
+              "one_in": 12515965.0,
+              "percent": 7.989795433272623e-06,
+              "probability": 7.989795433272624e-08,
+              "total_outcomes": 50063860
+            }
+          },
+          "system_only": {
+            "quadra_exact": {
+              "favorable_outcomes": 128790,
+              "one_in": 388.72474571007064,
+              "percent": 0.25725143846279536,
+              "probability": 0.0025725143846279533,
+              "total_outcomes": 50063860
+            },
+            "quadra_or_better": {
+              "favorable_outcomes": 130740,
+              "one_in": 382.9268777726786,
+              "percent": 0.26114646373651573,
+              "probability": 0.002611464637365157,
+              "total_outcomes": 50063860
+            },
+            "quina_exact": {
+              "favorable_outcomes": 1944,
+              "one_in": 25753.014403292178,
+              "percent": 0.0038830405805704957,
+              "probability": 3.8830405805704957e-05,
+              "total_outcomes": 50063860
+            },
+            "quina_or_better": {
+              "favorable_outcomes": 1950,
+              "one_in": 25673.774358974362,
+              "percent": 0.003895025273720404,
+              "probability": 3.895025273720404e-05,
+              "total_outcomes": 50063860
+            },
+            "sena": {
+              "favorable_outcomes": 6,
+              "one_in": 8343976.666666668,
+              "percent": 1.1984693149908934e-05,
+              "probability": 1.1984693149908935e-07,
+              "total_outcomes": 50063860
+            }
+          }
+        },
+        "purchase": {
+          "effective_amount_brl": null,
+          "effective_bets": null,
+          "status": "not_purchased"
+        },
+        "schema_version": "1.0",
+        "status": "missed_window",
         "tickets": [
           {
             "eligible_for_combined_probability": true,

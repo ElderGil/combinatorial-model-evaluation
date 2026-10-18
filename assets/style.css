@@ -107,3 +107,4 @@ footer { display: flex; justify-content: space-between; gap: 18px; margin-top: 2
 footer strong { color: #172033; }
 @media (max-width: 860px) { .history, .metrics { grid-template-columns: repeat(2,1fr); } .coverage-views, .ticket-groups { grid-template-columns: 1fr; } }
 @media (max-width: 560px) { .shell { width: min(100% - 24px, 1240px); padding-top: 14px; } .topbar, .section-head, footer { align-items: flex-start; flex-direction: column; } .badges { flex-wrap: wrap; } .hero { padding: 22px; } .history, .metrics { grid-template-columns: 1fr; } .ticket { grid-template-columns: 34px 1fr; } .ticket-meta { grid-column: 2; justify-items: start; text-align: left; } .result-head { align-items: flex-start; } .result-head code { width: 100%; } .result-tier-grid { grid-template-columns: 1fr; } .result-footer strong { width: 100%; margin-left: 0; } }
+.missed-note { color: #8a5a00; font-weight: 600; }
