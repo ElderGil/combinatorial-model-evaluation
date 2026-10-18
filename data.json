@@ -131,7 +131,7 @@
         "purchase": {
           "effective_amount_brl": null,
           "effective_bets": null,
-          "status": "pending"
+          "status": "payment_reported"
         },
         "rescheduled_from": 3071,
         "schema_version": "1.0",
