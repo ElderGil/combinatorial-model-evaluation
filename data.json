@@ -129,13 +129,13 @@
           }
         },
         "purchase": {
-          "effective_amount_brl": null,
-          "effective_bets": null,
-          "status": "payment_reported"
+          "effective_amount_brl": "60",
+          "effective_bets": 10,
+          "status": "purchased"
         },
         "rescheduled_from": 3071,
         "schema_version": "1.0",
-        "status": "awaiting_purchase",
+        "status": "purchased",
         "tickets": [
           {
             "eligible_for_combined_probability": true,
@@ -1899,9 +1899,9 @@
   ],
   "generated_from": "versioned_repository_data",
   "history": {
-    "contests": 3070,
+    "contests": 3071,
     "first_contest": 1,
-    "last_contest": 3070,
-    "updated_at": "2026-10-15T13:30:10.588678Z"
+    "last_contest": 3071,
+    "updated_at": "2026-10-19T06:16:53.088041Z"
   }
 }
