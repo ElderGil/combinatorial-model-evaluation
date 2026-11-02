@@ -293,7 +293,145 @@
           }
         ]
       },
-      "result": null
+      "result": {
+        "accumulated": true,
+        "contest_id": 3080,
+        "draw_date": "2026-11-01",
+        "draw_order": [
+          29,
+          28,
+          13,
+          17,
+          58,
+          39
+        ],
+        "estimated_next_prize_brl": 46000000.0,
+        "evaluated_at": "2026-11-02T00:36:14.924344Z",
+        "human_outcome": {
+          "best_hits": 2,
+          "evaluated_tickets": 4,
+          "gross_prize_brl": 0.0,
+          "quadra_or_better": false,
+          "quina_or_better": false,
+          "sena": false
+        },
+        "model_evaluation": {
+          "best_hits": 1,
+          "evaluated_tickets": 6,
+          "gross_prize_brl": 0.0,
+          "quadra_or_better": false,
+          "quina_or_better": false,
+          "sena": false
+        },
+        "next_contest_id": 3081,
+        "next_draw_date": "2026-11-04",
+        "numbers": [
+          13,
+          17,
+          28,
+          29,
+          39,
+          58
+        ],
+        "prize_tiers": {
+          "4": {
+            "prize_brl": 514.1,
+            "winners": 3133
+          },
+          "5": {
+            "prize_brl": 38878.66,
+            "winners": 29
+          },
+          "6": {
+            "prize_brl": 0.0,
+            "winners": 0
+          }
+        },
+        "purchase_validated": false,
+        "revenue_brl": 36782076.0,
+        "settlement": {
+          "gross_prize_brl": 0.0,
+          "participants": 4,
+          "share_per_participant_brl": 0.0
+        },
+        "source": {
+          "provider": "CAIXA",
+          "url": "https://servicebus2.caixa.gov.br/portaldeloterias/api/megasena/3080"
+        },
+        "special_contest_indicator": 1,
+        "ticket_results": [
+          {
+            "hits": 0,
+            "id": "S01",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 0,
+            "id": "S02",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 1,
+            "id": "S03",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 1,
+            "id": "S04",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 0,
+            "id": "S05",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 0,
+            "id": "S06",
+            "origin": "system",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 2,
+            "id": "H01",
+            "origin": "human_collective",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 2,
+            "id": "H02",
+            "origin": "human_collective",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 1,
+            "id": "H03",
+            "origin": "human_collective",
+            "prize_brl": 0.0,
+            "tier": null
+          },
+          {
+            "hits": 1,
+            "id": "H04",
+            "origin": "human_collective",
+            "prize_brl": 0.0,
+            "tier": null
+          }
+        ]
+      }
     },
     {
       "portfolio": {
