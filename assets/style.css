@@ -34,6 +34,7 @@ h1 span { color: #c2410c; }
 .past-contest-summary:focus-visible { outline: 3px solid #2563eb; outline-offset: -3px; }
 .past-contest-summary > span:first-child { font-size: 14px; }
 .past-contest-summary time { color: #68758b; font-size: 12px; }
+.past-contest-badge { border: 1px solid rgba(249,115,22,.3); border-radius: 999px; padding: 3px 9px; background: rgba(249,115,22,.08); color: #c2410c; font-size: 11px; font-weight: 750; }
 .past-contest-chevron { width: 9px; height: 9px; margin-left: auto; border-right: 2px solid #68758b; border-bottom: 2px solid #68758b; transform: rotate(45deg); transition: transform .15s ease; }
 .past-contest[open] .past-contest-chevron { transform: rotate(225deg); }
 .past-contest > .contest-card { border: 0; border-top: 1px solid #e7ecf3; border-radius: 0; box-shadow: none; }
