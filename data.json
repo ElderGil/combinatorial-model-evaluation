@@ -3,6 +3,300 @@
     {
       "portfolio": {
         "algorithm": {
+          "cycle_id": 1,
+          "historical_signal_weight": 0.0,
+          "name": "coverage-anticrowding-v0.1",
+          "objective_score": 1.76,
+          "seed": 17838255072098225811,
+          "version": "0.1.0",
+          "week_index": 0
+        },
+        "contest_id": 3083,
+        "created_at": "2026-11-07T19:09:52.053687Z",
+        "draw_date": "2026-11-08",
+        "human_registered_at": "2026-11-07T19:09:55.921077Z",
+        "probabilities": {
+          "combined": {
+            "quadra_exact": {
+              "favorable_outcomes": 214020,
+              "one_in": 233.92140921409217,
+              "percent": 0.42749400465725174,
+              "probability": 0.004274940046572517,
+              "total_outcomes": 50063860
+            },
+            "quadra_or_better": {
+              "favorable_outcomes": 217252,
+              "one_in": 230.4414228637711,
+              "percent": 0.4339497593673361,
+              "probability": 0.004339497593673361,
+              "total_outcomes": 50063860
+            },
+            "quina_exact": {
+              "favorable_outcomes": 3240,
+              "one_in": 15451.808641975307,
+              "percent": 0.006471734300950826,
+              "probability": 6.471734300950826e-05,
+              "total_outcomes": 50063860
+            },
+            "quina_or_better": {
+              "favorable_outcomes": 3250,
+              "one_in": 15404.264615384616,
+              "percent": 0.006491708789534007,
+              "probability": 6.491708789534007e-05,
+              "total_outcomes": 50063860
+            },
+            "sena": {
+              "favorable_outcomes": 10,
+              "one_in": 5006386.0,
+              "percent": 1.997448858318156e-05,
+              "probability": 1.997448858318156e-07,
+              "total_outcomes": 50063860
+            }
+          },
+          "human_only": {
+            "quadra_exact": {
+              "favorable_outcomes": 85824,
+              "one_in": 583.331702087994,
+              "percent": 0.17142905081629742,
+              "probability": 0.0017142905081629742,
+              "total_outcomes": 50063860
+            },
+            "quadra_or_better": {
+              "favorable_outcomes": 87124,
+              "one_in": 574.6276571323631,
+              "percent": 0.17402573433211102,
+              "probability": 0.0017402573433211103,
+              "total_outcomes": 50063860
+            },
+            "quina_exact": {
+              "favorable_outcomes": 1296,
+              "one_in": 38629.52160493827,
+              "percent": 0.00258869372038033,
+              "probability": 2.5886937203803302e-05,
+              "total_outcomes": 50063860
+            },
+            "quina_or_better": {
+              "favorable_outcomes": 1300,
+              "one_in": 38510.661538461536,
+              "percent": 0.002596683515813603,
+              "probability": 2.596683515813603e-05,
+              "total_outcomes": 50063860
+            },
+            "sena": {
+              "favorable_outcomes": 4,
+              "one_in": 12515965.0,
+              "percent": 7.989795433272623e-06,
+              "probability": 7.989795433272624e-08,
+              "total_outcomes": 50063860
+            }
+          },
+          "system_only": {
+            "quadra_exact": {
+              "favorable_outcomes": 128790,
+              "one_in": 388.72474571007064,
+              "percent": 0.25725143846279536,
+              "probability": 0.0025725143846279533,
+              "total_outcomes": 50063860
+            },
+            "quadra_or_better": {
+              "favorable_outcomes": 130740,
+              "one_in": 382.9268777726786,
+              "percent": 0.26114646373651573,
+              "probability": 0.002611464637365157,
+              "total_outcomes": 50063860
+            },
+            "quina_exact": {
+              "favorable_outcomes": 1944,
+              "one_in": 25753.014403292178,
+              "percent": 0.0038830405805704957,
+              "probability": 3.8830405805704957e-05,
+              "total_outcomes": 50063860
+            },
+            "quina_or_better": {
+              "favorable_outcomes": 1950,
+              "one_in": 25673.774358974362,
+              "percent": 0.003895025273720404,
+              "probability": 3.895025273720404e-05,
+              "total_outcomes": 50063860
+            },
+            "sena": {
+              "favorable_outcomes": 6,
+              "one_in": 8343976.666666668,
+              "percent": 1.1984693149908934e-05,
+              "probability": 1.1984693149908935e-07,
+              "total_outcomes": 50063860
+            }
+          }
+        },
+        "purchase": {
+          "effective_amount_brl": null,
+          "effective_bets": null,
+          "status": "pending"
+        },
+        "schema_version": "1.0",
+        "status": "awaiting_purchase",
+        "tickets": [
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S01",
+            "numbers": [
+              2,
+              4,
+              17,
+              27,
+              40,
+              58
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S02",
+            "numbers": [
+              1,
+              14,
+              18,
+              36,
+              47,
+              60
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S03",
+            "numbers": [
+              6,
+              8,
+              25,
+              30,
+              43,
+              51
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S04",
+            "numbers": [
+              3,
+              20,
+              31,
+              39,
+              41,
+              45
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S05",
+            "numbers": [
+              10,
+              21,
+              26,
+              32,
+              44,
+              53
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": true,
+            "eligible_for_model_validation": true,
+            "id": "S06",
+            "numbers": [
+              9,
+              24,
+              33,
+              35,
+              38,
+              52
+            ],
+            "origin": "system"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": false,
+            "eligible_for_model_validation": false,
+            "id": "H01",
+            "numbers": [
+              5,
+              18,
+              22,
+              33,
+              38,
+              52
+            ],
+            "origin": "human_collective",
+            "owner": "Elder"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": false,
+            "eligible_for_model_validation": false,
+            "id": "H02",
+            "numbers": [
+              3,
+              17,
+              25,
+              29,
+              31,
+              47
+            ],
+            "origin": "human_collective",
+            "owner": "Victor"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": false,
+            "eligible_for_model_validation": false,
+            "id": "H03",
+            "numbers": [
+              12,
+              17,
+              27,
+              31,
+              49,
+              54
+            ],
+            "origin": "human_collective",
+            "owner": "Andrei"
+          },
+          {
+            "eligible_for_combined_probability": true,
+            "eligible_for_generation_state": false,
+            "eligible_for_model_validation": false,
+            "id": "H04",
+            "numbers": [
+              6,
+              19,
+              22,
+              28,
+              36,
+              60
+            ],
+            "origin": "human_collective",
+            "owner": "Ellyson"
+          }
+        ]
+      },
+      "result": null
+    },
+    {
+      "portfolio": {
+        "algorithm": {
           "cycle_id": 0,
           "historical_signal_weight": 0.0,
           "name": "coverage-anticrowding-v0.1",
@@ -2706,9 +3000,9 @@
   ],
   "generated_from": "versioned_repository_data",
   "history": {
-    "contests": 3079,
+    "contests": 3082,
     "first_contest": 1,
-    "last_contest": 3079,
-    "updated_at": "2026-10-31T15:28:54.853557Z"
+    "last_contest": 3082,
+    "updated_at": "2026-11-07T19:09:47.829035Z"
   }
 }
